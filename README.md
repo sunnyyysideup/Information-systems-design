@@ -20,7 +20,7 @@ minikube version
 ```bash
 minikube start
 ```
-Но нам нужно укащать драйвер вручную, возьмём Docker:
+Но нам нужно указать драйвер вручную, возьмём Docker:
 ```bash
 minikube start --driver=docker
 ```
@@ -183,7 +183,9 @@ http://localhost:3000
 
 ## Импорт дашборда
 Шаг 1: В Grafana перейдите в Dashboards → New → Import.
+
 Шаг 2: Вставьте ID, например: ID: 315 (Kubernetes Cluster Monitoring).
+
 Шаг 3: Нажмите Load, затем выберите источник данных Prometheus.
 
 # Лабораторная работа 2 - разработка микросервисной архитектуры с GraphQL
